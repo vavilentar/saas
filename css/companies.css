@@ -1,0 +1,7 @@
+.companies {
+	height: 163px;
+	background-color: #8ee6c933;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

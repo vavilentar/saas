@@ -1,0 +1,106 @@
+.cards__container {
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+}
+
+.card-left-side {
+	width: 575px;
+}
+
+.cards-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards-card {
+	border: rgba(182, 182, 182, 0.37) 1px solid;
+	text-align: left;
+	background: white;
+	border-radius: 10px;
+	width: 282px;
+	height: 290px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.cards-card.active {
+	box-shadow: 0px 15px 65px rgba(83, 83, 83, 0.37);
+	transform: scale(1.03);
+}
+
+.card-img {
+	width: 40%;
+	padding: 24px 0px 36px 41px;
+}
+
+.card-title {
+	padding: 0px 0px 9px 35px;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 32px;
+
+}
+
+.card-text {
+	padding: 0px 0px 9px 35px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+
+}
+
+.cards-bottom {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards-right-side {
+	padding-left: 74px;
+}
+
+.cards-info {
+	width: 480px;
+
+}
+
+.cards-info-title {
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 68px;
+	color: black;
+}
+
+.cards-info-text {
+	padding: 20px 0 29px 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+
+}
+
+.cards-info-text span {
+	font-weight: 600;
+}
+
+.cards-btn {
+	cursor: pointer;
+	height: 59px;
+	width: 183px;
+	border-radius: 6px;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 29px;
+
+}
+
+.ask-link {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 29px;
+	color: #FF4D4D;
+	padding-left: 20px;
+}
