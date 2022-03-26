@@ -2,6 +2,7 @@
 @import url(./companies.css);
 @import url(./header.css);
 @import url(./hero-area.css);
+@import url(./simple-feature.css);
 
 *,
 *::before,
@@ -40,6 +41,10 @@ body {
 	height: 100%;
 	font-family: 'Poppins';
 
+}
+
+span {
+	font-weight: 600;
 }
 
 .wrapper {

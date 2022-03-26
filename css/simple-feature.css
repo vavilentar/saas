@@ -1,0 +1,30 @@
+
+.simple-feature-list ul {
+	list-style-image: url(./img/li-icon.svg);
+}
+
+.simple-feature {
+	display: flex;
+	align-items: center;
+}
+
+.simple-feature-title {
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 68px;
+}
+
+.simple-feature-text {
+	padding: 20px 0;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 29px;
+}
+
+
+.simple-feature-list-item {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px;
+}
